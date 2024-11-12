@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчёта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Обратный отсчёт до события свадьбы</h1>
+        <div id="countdown">
+            <div class="time-block">
+                <span id="days">0</span>
+                <p>Дней</p>
+            </div>
+            <div class="time-block">
+                <span id="hours">0</span>
+                <p>Часов</p>
+            </div>
+            <div class="time-block">
+                <span id="minutes">0</span>
+                <p>Минут</p>
+            </div>
+            <div class="time-block">
+                <span id="seconds">0</span>
+                <p>Секунд</p>
+            </div>
+        </div>
+        <input type="datetime-local" id="datePicker">
+<button id="setDate">Установить дату</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
